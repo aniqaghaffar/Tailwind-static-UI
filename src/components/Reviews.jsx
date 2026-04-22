@@ -3,7 +3,7 @@ import React from 'react';
 // Assets Imports
 import Feedback1 from '../assets/Feedback1.png';
 import Feedback2 from '../assets/Feedback2.png';
-import StarRating from '../assets/starRating.png';
+import StarRating from '../assets/StarRating.png';
 
 const Reviews = () => {
   return (
