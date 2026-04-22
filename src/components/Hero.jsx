@@ -2,7 +2,7 @@ import React from "react";
 import heroBg from "../assets/Background.png";
 import playerImg from "../assets/Player.png";
 import footballImg from "../assets/Football.png";
-import locationBarImg from "../assets/locationbar.png";
+import locationBarImg from "../assets/LocationBar.png";
 
 const Hero = () => {
   return (
