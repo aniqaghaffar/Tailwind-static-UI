@@ -6,7 +6,7 @@ import Card3 from '../assets/Card3.png';
 const FeaturedCities = () => {
   return (
     <section className="py-20 w-full bg-white">
-      {/* Container ki width ko slightly expand kiya hai Figma alignment ke liye */}
+     
       <div className="max-w-[1380px] mx-auto px-10">
         
         {/* Heading */}
@@ -15,10 +15,10 @@ const FeaturedCities = () => {
           Featured cities
         </h2>
 
-        {/* Cards Grid - Gap barha diya hai Figma spacing match karne ke liye */}
+        
         <div className="grid grid-cols-3 gap-[60px]">
           
-          {/* Card Component Structure (Repeated for 3 cards) */}
+         
           {[
             { img: Card1, city: "Austin, Texas" },
             { img: Card2, city: "Charlotte, Carolina" },
@@ -35,7 +35,7 @@ const FeaturedCities = () => {
               </div>
 
               {/* Text Content Area */}
-              <div className="p-6 bg-grey-800px flex justify-between items-end border-t border-gray-50">
+              <div className="p-6 bg-[#E7E7E7] flex justify-between items-end border-t border-gray-50">
                 <div>
                   <h3 className="text-[#091625] font-bold text-[20px] uppercase leading-tight">
                     {item.city}
@@ -45,7 +45,7 @@ const FeaturedCities = () => {
                   </p>
                 </div>
                 
-                {/* Green Badge with whitespace-nowrap */}
+               
                 <span className="bg-[#4ADE80] text-[#FFFFFF] text-[10px] font-bold p-[5px] rounded-sm uppercase whitespace-nowrap mb-[50px] mr-[3px]" >
                   Popular Location
                 </span>
